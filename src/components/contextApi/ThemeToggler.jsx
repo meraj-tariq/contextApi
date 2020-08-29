@@ -10,7 +10,7 @@ const ThemeToggler = () => {
             <div style = {themeTogglerStyle}
             onClick = {() => {setThemeMode(themeMode === "light"? "dark": "light")}}>
                 <span title = "switch theme">
-                mode{themeMode === "light" ? "🌙" : "☀️"}
+                {themeMode === "light" ? "🌙" : "☀️"}
             </span>
             
             </div>
