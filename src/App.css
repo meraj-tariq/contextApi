@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -49,3 +49,50 @@
   border-color: #ffffff;
   background: #ffffff;
 }
+
+.container{
+  /*text-align: center;*/
+  max-width: 400px;
+  min-height: 450px;
+  margin: 0 auto;
+  background-color: #efefef;
+  box-shadow: 0 0 10px gray;
+  margin-top: 50px;
+  padding: 15px 50px;
+
+}
+
+.txt-center{
+  text-align: center;
+  font-size: 2rem;
+  /*font-size: 222px;*/
+}
+
+.expense-container{
+display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px gray;
+}
+
+.transaction-form input{
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px 5px;
+}
+.transaction-list{
+  margin: 0;
+  padding: 0;
+}
+.transaction-list li{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border-right: 4px solid red;
+  border-radius: 5px;
+  /*box-shadow: 0 0 5px gray;*/
+}
+
+
